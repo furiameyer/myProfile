@@ -30,7 +30,7 @@ $(function () {
         navbar = $('.navbar'),
         logo = $('.navbar .logo> img');
 
-    if (bodyScroll > 700) {
+    if (bodyScroll > 650) {
       navbar.addClass('nav-scroll');
       logo.addClass('img-thumbnail rounded-circle')
       logo.attr('src', 'img/arielmeyer.jpg');
